@@ -1,0 +1,159 @@
+{
+  "version": 1,
+  "source": {
+    "kind": "official-snapshot",
+    "fetchedAt": "2026-10-19T23:26:57+08:00",
+    "tool": "list-nutrition-foods",
+    "endpoint": "https://mcp.mcd.cn",
+    "note": "真实只读响应白名单提取；每份口径参照麦当劳中国官网营养计算器说明。仅用于游戏，不代表当前门店在售。",
+    "basisReference": "https://www.mcdonalds.com.cn/product/french-fries",
+    "rawDataSha256": "1988c306ae2104d57b0402e4966b5d92b4c9744ce6ff1dd023a502044629268c",
+    "receivedRows": 160
+  },
+  "foods": [
+    {
+      "id": "mcd-57528103335b",
+      "name": "猪柳麦满分",
+      "emoji": "🍔",
+      "basis": "per-serving",
+      "kcal": 308,
+      "protein": 16,
+      "sodium": 781
+    },
+    {
+      "id": "mcd-21bbc28e9aea",
+      "name": "猪柳蛋麦满分",
+      "emoji": "🍔",
+      "basis": "per-serving",
+      "kcal": 387,
+      "protein": 23,
+      "sodium": 846
+    },
+    {
+      "id": "mcd-38133914f1a9",
+      "name": "中薯条",
+      "emoji": "🍟",
+      "basis": "per-serving",
+      "kcal": 289,
+      "protein": 4,
+      "sodium": 165
+    },
+    {
+      "id": "mcd-5d0df0d2c5f2",
+      "name": "大薯条",
+      "emoji": "🍟",
+      "basis": "per-serving",
+      "kcal": 379,
+      "protein": 6,
+      "sodium": 216
+    },
+    {
+      "id": "mcd-44a5a7cc7591",
+      "name": "小薯条",
+      "emoji": "🍟",
+      "basis": "per-serving",
+      "kcal": 210,
+      "protein": 3,
+      "sodium": 120
+    },
+    {
+      "id": "mcd-b4cca9d70fbb",
+      "name": "圆筒冰淇淋",
+      "emoji": "🍦",
+      "basis": "per-serving",
+      "kcal": 93,
+      "protein": 2,
+      "sodium": 36
+    },
+    {
+      "id": "mcd-e4739c87707e",
+      "name": "麦乐鸡5块",
+      "emoji": "🍗",
+      "basis": "per-serving",
+      "kcal": 213,
+      "protein": 12,
+      "sodium": 422
+    },
+    {
+      "id": "mcd-6cdab915747f",
+      "name": "大杯玉米杯",
+      "emoji": "🌽",
+      "basis": "per-serving",
+      "kcal": 87,
+      "protein": 4,
+      "sodium": 2
+    },
+    {
+      "id": "mcd-316a2b484236",
+      "name": "香芋派",
+      "emoji": "🥧",
+      "basis": "per-serving",
+      "kcal": 232,
+      "protein": 2,
+      "sodium": 159
+    },
+    {
+      "id": "mcd-fdaf6fd2f4c7",
+      "name": "双层吉士汉堡",
+      "emoji": "🍔",
+      "basis": "per-serving",
+      "kcal": 429,
+      "protein": 27,
+      "sodium": 1017
+    },
+    {
+      "id": "mcd-aa7bd5d969a3",
+      "name": "麦香鱼",
+      "emoji": "🐟",
+      "basis": "per-serving",
+      "kcal": 325,
+      "protein": 16,
+      "sodium": 556
+    },
+    {
+      "id": "mcd-bb8b6170456c",
+      "name": "麦辣鸡腿汉堡",
+      "emoji": "🍔",
+      "basis": "per-serving",
+      "kcal": 485,
+      "protein": 24,
+      "sodium": 1208
+    },
+    {
+      "id": "mcd-4a9846820705",
+      "name": "板烧鸡腿堡",
+      "emoji": "🍔",
+      "basis": "per-serving",
+      "kcal": 391,
+      "protein": 23,
+      "sodium": 1041
+    },
+    {
+      "id": "mcd-0fc9231842bc",
+      "name": "巨无霸",
+      "emoji": "🍔",
+      "basis": "per-serving",
+      "kcal": 513,
+      "protein": 27,
+      "sodium": 961
+    },
+    {
+      "id": "mcd-fd39f62038d2",
+      "name": "纯牛奶（盒装）",
+      "emoji": "🥛",
+      "basis": "per-serving",
+      "kcal": 129,
+      "protein": 7,
+      "sodium": 73
+    },
+    {
+      "id": "mcd-13b45bb50b66",
+      "name": "苹果片",
+      "emoji": "🍎",
+      "basis": "per-serving",
+      "kcal": 32,
+      "protein": 0,
+      "sodium": 0
+    }
+  ]
+}
