@@ -1,0 +1,4 @@
+import fs from 'node:fs';
+import {McdClient} from '../lib/mcp-client.mjs';
+const args=process.argv.slice(2);const get=(k,d)=>{const i=args.indexOf(k);return i<0?d:args[i+1];};
+try{const client=new McdClient(process.env.MCD_MCP_TOKEN);await client.init();const tools=await client.list();if(args.includes('--discover')){console.log(JSON.stringify(tools,null,2));}else{const name=get('--tool','list-nutrition-foods');if(!tools.some(t=>t.name===name))throw Error('当前账号未开放所需工具');const input=JSON.parse(get('--args','{}'));const result=await client.call(name,input);const out=get('--output','private/nutrition-response.json');if(!out.startsWith('private/')&&!out.includes('/private/'))throw Error('原始响应必须保存到 private 目录，规范化后才可分享');fs.mkdirSync(out.slice(0,out.lastIndexOf('/')),{recursive:true,mode:0o700});fs.writeFileSync(out,JSON.stringify(result,null,2),{mode:0o600});console.log(`只读调用成功；原始结果保存在本机 ${out}，未输出响应正文。`);}}catch(e){console.error(e.message);process.exitCode=1;}
